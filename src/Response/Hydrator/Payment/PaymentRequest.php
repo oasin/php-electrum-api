@@ -17,11 +17,11 @@ class PaymentRequest extends Reflection
 
         $namingStrategy = new MapNamingStrategy([
             'id' => 'id',
-            'status' => 'status',
-            'memo' => 'memo',
+            'status_str' => 'status',
+            'message' => 'memo',
             'address' => 'address',
             'URI' => 'uri',
-            'exp' => 'expires',
+            'expiration' => 'expires',
             'time' => 'time',
             'confirmations' => 'confirmations',
         ]);
