@@ -40,6 +40,12 @@ class PaymentRequest implements ResponseInterface
      * @var string
      */
     private $status = '';
+    
+    
+    /**
+     * @var string
+     */
+    private $status_str = '';
 
     /**
      * @var Amount|null
@@ -118,6 +124,27 @@ class PaymentRequest implements ResponseInterface
     {
         return $this->status;
     }
+    
+    /**
+     * @return string
+     */
+    public function getStr()
+    {
+        return $this->status_str;
+    }
+    
+    /**
+     * @param string $str
+     *
+     * @return PaymentRequest
+     */
+    public function setStr($str)
+    {
+        $this->status_str = $str;
+
+        return $this;
+    }
+    
 
     /**
      * @param string $status
