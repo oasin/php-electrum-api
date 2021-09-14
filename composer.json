@@ -1,5 +1,5 @@
 {
-    "name": "uran1980/php-electrum-api",
+    "name": "oasin/php-electrum-api",
     "description": "PHP wrapper for Electrum JSONRPC-API",
     "type": "library",
 	"keywords": ["electrum", "bitcoin", "payment", "jsonrpc", "api"],
@@ -12,6 +12,10 @@
         {
             "name": "epoxa",
             "email": "epoxa@vvproject.ru"
+        },
+        {
+            "name": "Oasin Tech",
+            "email": "oasintech@gmail.com"
         }
     ],
     "require": {
